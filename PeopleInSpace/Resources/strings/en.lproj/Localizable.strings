@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  PeopleInSpace
+
+  Created by Serhii on 06.05.2024.
+  
+*/
+"austronaut_list.title" = "People In Space";
+"offline_mode.title" = "Offline Mode";
+"offline_mode.message" = "There is no connection. Using cached data ...";

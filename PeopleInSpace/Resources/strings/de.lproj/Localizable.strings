@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  PeopleInSpace
+
+  Created by Serhii on 06.05.2024.
+  
+*/
+"austronaut_list.title" = "Menschen im Weltraum";
+"offline_mode.title" = "Offline-Modus";
+"offline_mode.message" = "Es besteht keine Verbindung. Verwendung zwischengespeicherter Daten ...";

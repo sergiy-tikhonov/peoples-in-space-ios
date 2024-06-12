@@ -7,25 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DE8C10A249FAB6851B24158 /* Pods_PeopleInSpace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F623048E81729A74A0839B /* Pods_PeopleInSpace.framework */; };
 		C518253E2BD9A191003D0963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518253D2BD9A191003D0963 /* AppDelegate.swift */; };
 		C51825402BD9A191003D0963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518253F2BD9A191003D0963 /* SceneDelegate.swift */; };
-		C51825422BD9A191003D0963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51825412BD9A191003D0963 /* ViewController.swift */; };
-		C51825452BD9A191003D0963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51825432BD9A191003D0963 /* Main.storyboard */; };
 		C51825482BD9A191003D0963 /* PeopleInSpace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C51825462BD9A191003D0963 /* PeopleInSpace.xcdatamodeld */; };
 		C518254A2BD9A192003D0963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51825492BD9A192003D0963 /* Assets.xcassets */; };
 		C518254D2BD9A192003D0963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C518254B2BD9A192003D0963 /* LaunchScreen.storyboard */; };
+		C51825572BD9A2F7003D0963 /* AustronautsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51825562BD9A2F7003D0963 /* AustronautsListViewController.swift */; };
+		C51825592BD9A498003D0963 /* AustronautCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51825582BD9A498003D0963 /* AustronautCell.swift */; };
+		C518255B2BD9A996003D0963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C518255A2BD9A996003D0963 /* Main.storyboard */; };
+		C5810EBA2BE80CFB0069669C /* AustronautInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5810EB92BE80CFB0069669C /* AustronautInfoViewController.swift */; };
+		C5B692832BEA3C72004B284B /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = C5B692822BEA3C72004B284B /* swiftgen.yml */; };
+		C5B692852BEA3CD6004B284B /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B692842BEA3CD6004B284B /* Strings+Generated.swift */; };
+		C5B6928A2BEA84E9004B284B /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C5B692882BEA84E9004B284B /* en.lproj */; };
+		C5B6928B2BEA84E9004B284B /* uk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C5B692892BEA84E9004B284B /* uk.lproj */; };
+		C5B6928E2BEA877B004B284B /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C5B6928D2BEA877B004B284B /* de.lproj */; };
+		C5B692912BEABFE3004B284B /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B692902BEABFE3004B284B /* DatabaseService.swift */; };
+		C5B692942BEAC2E9004B284B /* AustronautManagedObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B692922BEAC2E9004B284B /* AustronautManagedObject+CoreDataClass.swift */; };
+		C5B692952BEAC2E9004B284B /* AustronautManagedObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B692932BEAC2E9004B284B /* AustronautManagedObject+CoreDataProperties.swift */; };
+		C5D856B52BE821970091EB8D /* Austronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D856B42BE821970091EB8D /* Austronaut.swift */; };
+		C5D856BA2BE8EB520091EB8D /* AustronautInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D856B92BE8EB520091EB8D /* AustronautInfo.xib */; };
+		C5D856C52BE97A120091EB8D /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D856C42BE97A120091EB8D /* ApiService.swift */; };
+		C5D856C82BE97A770091EB8D /* AustronautsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D856C72BE97A770091EB8D /* AustronautsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DCACF750E24FB5E8B0B4BF2 /* Pods-PeopleInSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleInSpace.debug.xcconfig"; path = "Target Support Files/Pods-PeopleInSpace/Pods-PeopleInSpace.debug.xcconfig"; sourceTree = "<group>"; };
 		C518253A2BD9A191003D0963 /* PeopleInSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleInSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C518253D2BD9A191003D0963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C518253F2BD9A191003D0963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C51825412BD9A191003D0963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C51825442BD9A191003D0963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C51825472BD9A191003D0963 /* PeopleInSpace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeopleInSpace.xcdatamodel; sourceTree = "<group>"; };
 		C51825492BD9A192003D0963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C518254C2BD9A192003D0963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C518254E2BD9A192003D0963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51825562BD9A2F7003D0963 /* AustronautsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustronautsListViewController.swift; sourceTree = "<group>"; };
+		C51825582BD9A498003D0963 /* AustronautCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustronautCell.swift; sourceTree = "<group>"; };
+		C518255A2BD9A996003D0963 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C5810EB92BE80CFB0069669C /* AustronautInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustronautInfoViewController.swift; sourceTree = "<group>"; };
+		C5B692822BEA3C72004B284B /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		C5B692842BEA3CD6004B284B /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		C5B692882BEA84E9004B284B /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		C5B692892BEA84E9004B284B /* uk.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = uk.lproj; sourceTree = "<group>"; };
+		C5B6928D2BEA877B004B284B /* de.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = de.lproj; sourceTree = "<group>"; };
+		C5B692902BEABFE3004B284B /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		C5B692922BEAC2E9004B284B /* AustronautManagedObject+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AustronautManagedObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C5B692932BEAC2E9004B284B /* AustronautManagedObject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AustronautManagedObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C5D856B42BE821970091EB8D /* Austronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Austronaut.swift; sourceTree = "<group>"; };
+		C5D856B92BE8EB520091EB8D /* AustronautInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AustronautInfo.xib; sourceTree = "<group>"; };
+		C5D856C42BE97A120091EB8D /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		C5D856C72BE97A770091EB8D /* AustronautsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustronautsResponse.swift; sourceTree = "<group>"; };
+		CCE8900F66F0BC0175275116 /* Pods-PeopleInSpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleInSpace.release.xcconfig"; path = "Target Support Files/Pods-PeopleInSpace/Pods-PeopleInSpace.release.xcconfig"; sourceTree = "<group>"; };
+		F3F623048E81729A74A0839B /* Pods_PeopleInSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeopleInSpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE8C10A249FAB6851B24158 /* Pods_PeopleInSpace.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F8DBDA09D717F05AEBDAAB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DCACF750E24FB5E8B0B4BF2 /* Pods-PeopleInSpace.debug.xcconfig */,
+				CCE8900F66F0BC0175275116 /* Pods-PeopleInSpace.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C51825312BD9A191003D0963 = {
 			isa = PBXGroup;
 			children = (
+				C5B692822BEA3C72004B284B /* swiftgen.yml */,
 				C518253C2BD9A191003D0963 /* PeopleInSpace */,
 				C518253B2BD9A191003D0963 /* Products */,
+				7F8DBDA09D717F05AEBDAAB2 /* Pods */,
+				D4B97C75C447D78CE7A241FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +103,101 @@
 		C518253C2BD9A191003D0963 /* PeopleInSpace */ = {
 			isa = PBXGroup;
 			children = (
+				C5B6928F2BEABFCD004B284B /* Database */,
+				C5D856C32BE979D70091EB8D /* Network */,
+				C5D856C22BE9302F0091EB8D /* Resources */,
+				C5D856B32BE821810091EB8D /* Data */,
+				C51825552BD9A21E003D0963 /* AustronautsInfo */,
+				C51825542BD9A20A003D0963 /* AustronautsList */,
 				C518253D2BD9A191003D0963 /* AppDelegate.swift */,
 				C518253F2BD9A191003D0963 /* SceneDelegate.swift */,
-				C51825412BD9A191003D0963 /* ViewController.swift */,
-				C51825432BD9A191003D0963 /* Main.storyboard */,
 				C51825492BD9A192003D0963 /* Assets.xcassets */,
 				C518254B2BD9A192003D0963 /* LaunchScreen.storyboard */,
 				C518254E2BD9A192003D0963 /* Info.plist */,
-				C51825462BD9A191003D0963 /* PeopleInSpace.xcdatamodeld */,
+				C518255A2BD9A996003D0963 /* Main.storyboard */,
 			);
 			path = PeopleInSpace;
+			sourceTree = "<group>";
+		};
+		C51825542BD9A20A003D0963 /* AustronautsList */ = {
+			isa = PBXGroup;
+			children = (
+				C51825562BD9A2F7003D0963 /* AustronautsListViewController.swift */,
+				C51825582BD9A498003D0963 /* AustronautCell.swift */,
+			);
+			path = AustronautsList;
+			sourceTree = "<group>";
+		};
+		C51825552BD9A21E003D0963 /* AustronautsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C5810EB92BE80CFB0069669C /* AustronautInfoViewController.swift */,
+				C5D856B92BE8EB520091EB8D /* AustronautInfo.xib */,
+			);
+			path = AustronautsInfo;
+			sourceTree = "<group>";
+		};
+		C5B692872BEA84BD004B284B /* strings */ = {
+			isa = PBXGroup;
+			children = (
+				C5B6928D2BEA877B004B284B /* de.lproj */,
+				C5B692882BEA84E9004B284B /* en.lproj */,
+				C5B692892BEA84E9004B284B /* uk.lproj */,
+			);
+			path = strings;
+			sourceTree = "<group>";
+		};
+		C5B6928F2BEABFCD004B284B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C51825462BD9A191003D0963 /* PeopleInSpace.xcdatamodeld */,
+				C5B692902BEABFE3004B284B /* DatabaseService.swift */,
+				C5B692922BEAC2E9004B284B /* AustronautManagedObject+CoreDataClass.swift */,
+				C5B692932BEAC2E9004B284B /* AustronautManagedObject+CoreDataProperties.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		C5D856B32BE821810091EB8D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C5D856B42BE821970091EB8D /* Austronaut.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C5D856C22BE9302F0091EB8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5B692872BEA84BD004B284B /* strings */,
+				C5B692842BEA3CD6004B284B /* Strings+Generated.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5D856C32BE979D70091EB8D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C5D856C62BE97A3B0091EB8D /* Model */,
+				C5D856C42BE97A120091EB8D /* ApiService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C5D856C62BE97A3B0091EB8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5D856C72BE97A770091EB8D /* AustronautsResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4B97C75C447D78CE7A241FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F623048E81729A74A0839B /* Pods_PeopleInSpace.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C51825512BD9A192003D0963 /* Build configuration list for PBXNativeTarget "PeopleInSpace" */;
 			buildPhases = (
+				889CF6457540A359A64B357B /* [CP] Check Pods Manifest.lock */,
 				C51825362BD9A191003D0963 /* Sources */,
 				C51825372BD9A191003D0963 /* Frameworks */,
 				C51825382BD9A191003D0963 /* Resources */,
+				9D91BA4D253E931EB239CC96 /* [CP] Embed Pods Frameworks */,
+				C5D856C92BEA2F450091EB8D /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -97,6 +230,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					dynamic_resource,
+				);
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
@@ -112,6 +248,8 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
+				de,
 			);
 			mainGroup = C51825312BD9A191003D0963;
 			productRefGroup = C518253B2BD9A191003D0963 /* Products */;
@@ -128,37 +266,103 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B6928A2BEA84E9004B284B /* en.lproj in Resources */,
+				C518255B2BD9A996003D0963 /* Main.storyboard in Resources */,
 				C518254D2BD9A192003D0963 /* LaunchScreen.storyboard in Resources */,
 				C518254A2BD9A192003D0963 /* Assets.xcassets in Resources */,
-				C51825452BD9A191003D0963 /* Main.storyboard in Resources */,
+				C5B6928B2BEA84E9004B284B /* uk.lproj in Resources */,
+				C5D856BA2BE8EB520091EB8D /* AustronautInfo.xib in Resources */,
+				C5B6928E2BEA877B004B284B /* de.lproj in Resources */,
+				C5B692832BEA3C72004B284B /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		889CF6457540A359A64B357B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeopleInSpace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D91BA4D253E931EB239CC96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeopleInSpace/Pods-PeopleInSpace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeopleInSpace/Pods-PeopleInSpace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeopleInSpace/Pods-PeopleInSpace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D856C92BEA2F450091EB8D /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C51825362BD9A191003D0963 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C51825422BD9A191003D0963 /* ViewController.swift in Sources */,
+				C5B692852BEA3CD6004B284B /* Strings+Generated.swift in Sources */,
+				C51825592BD9A498003D0963 /* AustronautCell.swift in Sources */,
+				C5D856B52BE821970091EB8D /* Austronaut.swift in Sources */,
+				C5D856C82BE97A770091EB8D /* AustronautsResponse.swift in Sources */,
+				C5B692942BEAC2E9004B284B /* AustronautManagedObject+CoreDataClass.swift in Sources */,
 				C518253E2BD9A191003D0963 /* AppDelegate.swift in Sources */,
+				C5B692952BEAC2E9004B284B /* AustronautManagedObject+CoreDataProperties.swift in Sources */,
+				C5810EBA2BE80CFB0069669C /* AustronautInfoViewController.swift in Sources */,
+				C51825572BD9A2F7003D0963 /* AustronautsListViewController.swift in Sources */,
 				C51825482BD9A191003D0963 /* PeopleInSpace.xcdatamodeld in Sources */,
+				C5D856C52BE97A120091EB8D /* ApiService.swift in Sources */,
 				C51825402BD9A191003D0963 /* SceneDelegate.swift in Sources */,
+				C5B692912BEABFE3004B284B /* DatabaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C51825432BD9A191003D0963 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C51825442BD9A191003D0963 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C518254B2BD9A192003D0963 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -175,6 +379,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -238,6 +443,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -291,11 +497,15 @@
 		};
 		C51825522BD9A192003D0963 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCACF750E24FB5E8B0B4BF2 /* Pods-PeopleInSpace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F224BFN33A;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PeopleInSpace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,6 +513,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +529,15 @@
 		};
 		C51825532BD9A192003D0963 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE8900F66F0BC0175275116 /* Pods-PeopleInSpace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F224BFN33A;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PeopleInSpace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,6 +545,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
