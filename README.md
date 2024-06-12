@@ -1,4 +1,4 @@
-Simple application, gets data from https://people-in-space-proxy.ew.r.appspot.com/astros.json
+Simple application just for getting experience with iOS development, gets data from https://people-in-space-proxy.ew.r.appspot.com/astros.json
 and displays the list with austronauts
 
 ![Austronaut list](https://github.com/sergiy-tikhonov/peoples-in-space-ios/assets/58865580/b6421f88-e91f-4315-968c-01451a6f3432)
